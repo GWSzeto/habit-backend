@@ -23,6 +23,7 @@
     "graphql": "^14.6.0",
     "graphql-tools": "^5.0.0",
     "pg": "^8.0.2",
+    "serverless-plugin-typescript": "^1.1.9",
     "uuid": "^7.0.3"
   },
   "devDependencies": {

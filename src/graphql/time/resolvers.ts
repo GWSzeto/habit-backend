@@ -1,5 +1,4 @@
 import { GraphQLScalarType } from 'graphql'
-import { format, parse } from 'date-fns'
 
 const Time = new GraphQLScalarType({
   name: 'Time',
