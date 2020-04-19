@@ -3,9 +3,9 @@ import { Pool } from 'pg'
 const pool = new Pool({
   user: process.env.USER,
   password: process.env.PASSWORD,
-  host: process.env.host,
+  host: process.env.HOST,
   database: process.env.DATABASE,
-  port: parseInt(process.env.PORT || '5432')
+  port: parseInt(process.env.PORT || '5432'),
 })
 
 export default {

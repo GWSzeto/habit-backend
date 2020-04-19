@@ -8,9 +8,6 @@ import { CueDataSource } from './src/postgres'
 import dotenv from 'dotenv'
 dotenv.config()
 
-console.log("user: ", process.env.USER)
-console.log("database: ", process.env.DATABASE)
-
 const schema = makeExecutableSchema({
 	typeDefs: [
 		rootTypeDefs,
